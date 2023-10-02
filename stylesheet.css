@@ -106,3 +106,14 @@ header {
   border-radius: 8px;
   margin: 10px; /* Jarak antar gambar */
 }
+.gambar-terbagi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Menyebarkan gambar secara merata */
+    align-items: center; /* Untuk perataan vertikal */
+}
+
+.gambar-terbagi img {
+    width: 48%; /* Lebar gambar 48% dari parent untuk menghindari overflow */
+    margin-bottom: 10px; /* Spasi antara gambar */
+}
