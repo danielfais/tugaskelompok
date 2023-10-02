@@ -89,3 +89,20 @@ header {
 .fa {
   margin-right: 5px;
 }
+
+/* Gaya untuk kotak foto */
+.photo-gallery {
+  text-align: center;
+  background-color: black; /* Warna latar belakang kotak hitam */
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid pink; /* Warna border pink */
+  border-radius: 10px;
+}
+
+.photo-gallery img {
+  width: 100%; /* Agar gambar memenuhi kotak */
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px; /* Jarak antar gambar */
+}
