@@ -237,12 +237,10 @@ form .form-group input:valid~i {
     border: 1px solid #000; /* Warna hitam (#000) */
 }
 .header {
-    background-color: #000; /* Ini adalah warna hitam */
-    /* Atau Anda juga bisa menggunakan kode warna lain untuk warna hitam */
-    color: #fff; /* Warna teks pada header (putih) */
-    /* Atau Anda juga bisa mengganti warna teks sesuai kebutuhan */
+    background-color: #000; /* Warna hitam */
+    color: #fff; /* Warna teks putih atau yang sesuai */
+    padding: 10px; /* Padding sesuai dengan kebutuhan Anda */
 }
-
 
 /* Contoh untuk elemen label dengan border hitam */
 .form-group label {
