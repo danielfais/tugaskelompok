@@ -8,9 +8,9 @@
 }
 
 :root {
-    --mainColor: #89216b;
+    --mainColor: ##800080;
     --whiteColor: #ffffff;
-    --titleColor: #555555;
+    --titleColor: #D3D3D3;
     --labelColor: #333333;
 }
 
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, #da4453, var(--mainColor));
+    background: linear-gradient(to right, #FFC0CB, var(--mainColor));
     font-weight: 400;
     min-height: 100vh;
     display: grid;
@@ -127,7 +127,7 @@ form .form-group input:valid~i {
 }
 
 .wrapper .form-container form .btn {
-    background: linear-gradient(to right, #da4453, var(--mainColor));
+    background: linear-gradient(to right, #FFC0CB, var(--mainColor));
     color: var(--whiteColor);
     text-transform: capitalize;
     width: 100%;
@@ -157,7 +157,7 @@ form .form-group input:valid~i {
 }
 
 .wrapper .form-container form .link a:hover {
-    color: #da4453;
+    color: #FFC0CB;
 }
 
 .wrapper .sign-up {
