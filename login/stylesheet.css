@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, #FFC0CB, var(--mainColor));
+    background: linear-gradient(to right, #FF1493, var(--mainColor));
     font-weight: 400;
     min-height: 100vh;
     display: grid;
@@ -127,7 +127,7 @@ form .form-group input:valid~i {
 }
 
 .wrapper .form-container form .btn {
-    background: linear-gradient(to right, #FFC0CB, var(--mainColor));
+    background: linear-gradient(to right, #FF1493, var(--mainColor));
     color: var(--whiteColor);
     text-transform: capitalize;
     width: 100%;
@@ -157,7 +157,7 @@ form .form-group input:valid~i {
 }
 
 .wrapper .form-container form .link a:hover {
-    color: #FFC0CB;
+    color: #FF1493;
 }
 
 .wrapper .sign-up {
