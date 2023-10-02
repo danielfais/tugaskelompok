@@ -117,12 +117,7 @@ header {
     width: 48%; /* Lebar gambar 48% dari parent untuk menghindari overflow */
     margin-bottom: 10px; /* Spasi antara gambar */
 }
-.container {
-            margin: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            background-color: #f9f9f9;
-            text-align: center;
+
 }
 
         /* CSS untuk mengatur tampilan judul sebagai tautan */
