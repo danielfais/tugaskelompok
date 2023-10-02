@@ -233,3 +233,11 @@ form .form-group input:valid~i {
         z-index: 1;
     }
 }
+.form-group input {
+    border: 1px solid #000; /* Warna hitam (#000) */
+}
+
+/* Contoh untuk elemen label dengan border hitam */
+.form-group label {
+    border: 1px solid #000; /* Warna hitam (#000) */
+}
